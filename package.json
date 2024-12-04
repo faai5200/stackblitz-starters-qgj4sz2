@@ -1,0 +1,12 @@
+{
+  "name": "pre-ipo-capital",
+  "version": "1.0.0",
+  "description": "Pre-IPO Capital Website",
+  "scripts": {
+    "start": "servor --reload",
+    "build": "mkdir -p dist && cp -r css images js *.html dist/"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}
